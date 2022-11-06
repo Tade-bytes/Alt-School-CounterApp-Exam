@@ -1,0 +1,74 @@
+.App {
+  box-sizing: border-box;
+  text-align: center ;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-left: 190px ;
+  background-color: green;
+  width: 70%;
+  padding: 70px;
+  align-items: center;
+
+}
+header{
+  margin-top: 0px;
+  font-size: 35px;
+  color: green;
+  background: white;
+  border: none;
+  padding: 12px;
+
+
+}
+h1{
+  grid-column: span 2;
+  color: white;
+  height: 50px;
+  padding: 10px;
+  font-size: 39px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+button{
+  width: 128px;
+  height: 55px;
+  color: green;
+  border: none;
+  border-radius: 5%;
+  margin: 12px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 100;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+.nav-links a{
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 6px 12px;
+}
+.page-not-found{
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 10px 0 20px 0 rgba(0,0,0, 0.2);
+  color:green;
+  
+
+}
+.page-not-found h1{
+  font-size: 45px;
+  font-weight: 300;
+  color: red;
+}
+.page-not-found p{
+  font-size: 23px;
+}
